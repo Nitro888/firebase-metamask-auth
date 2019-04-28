@@ -9,7 +9,7 @@
     "request": "^2.81.0",
     "sass-loader": "^7.1.0",
     "speakeasy": "^2.0.0",
-    "web3-eth-accounts": "^1.0.0-beta.52"
+    "web3": "^1.0.0-beta.52"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
