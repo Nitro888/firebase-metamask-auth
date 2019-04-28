@@ -82,4 +82,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+.firebase
+.firebaserc
 functions/service-account.json
