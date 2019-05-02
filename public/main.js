@@ -48,7 +48,7 @@ Demo.prototype.signIn = function () {
   if (web3 && web3.eth.coinbase) {
     const account = web3.eth.coinbase.toLowerCase()
     const message = { account, token: '123123' } // TODO : generate token = 123123123
-    web3.personal.sign(JSON.stringify(message), account, (e, signature) => {
+    web3.personal.sign(web3.toHex(JSON.stringify(message)), account, (e, signature) => {
       if (!e) {
         var req = new XMLHttpRequest()
         req.onload = function () {
